@@ -1,0 +1,12 @@
+.iconsediting
+{
+    font-size: 97px;
+    color: #FC8019;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .SERVICE-PART {
+          height: 275vh;
+    }
+  }
