@@ -2,6 +2,8 @@
 {
     height: 100vh;
     width: 100%;
+    display: flex;
+   
    
    
 }
@@ -9,9 +11,47 @@
 .HOMELEFT
 {
   
-   height: 100vh;
+   height:68vh;
+   width: 50%;
+
+
 }
 .HOMERIGHT
 {
-   height: 100vh;
+   height: 68vh;
+   width: 50%;
+
+   background-image: url(BURGER/burgerfront.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#spin {
+    color:black;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 10s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"Unexpected guests?"; }
+    10% { content:"Movie marathon?"; }
+    20% { content:"Hungry?"; }
+    30% { content:"Game night?"; }
+    40% { content:"Late nigt at office?"; }
+    50% { content:"Unexpected guest?"; }
+   
+    
+  }
+.total
+  {
+    text-align: center;
+  }
+.ordernow
+{
+    border: 2px solid #FC8019;
+}
+.inputbox
+{
+    border: 2px solid #FC8019;
 }
