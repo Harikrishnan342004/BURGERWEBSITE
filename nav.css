@@ -1,4 +1,12 @@
-.nav
+.COLOURTEXT
 {
-    background-color: #FC8019;
+    color: #FC8019;
+}
+.navbar-nav
+{
+    margin-left: auto;
+}
+.sign-up-style
+{
+    
 }
