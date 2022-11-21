@@ -1,12 +1,26 @@
+.contentpart
+{
+  text-align: center;
+}
+
 .iconsediting
 {
-    font-size: 97px;
+    font-size: 110px;
     color: #FC8019;
+    text-align: center;
+}
+.SERVICE-PART
+{
+    height: 120vh;
+    width: 100%;
+
 }
 
 
-@media only screen and (max-width: 900px) {
+
+
+@media only screen and (max-width: 1000px) {
     .SERVICE-PART {
-          height: 275vh;
+          height: 240vh;
     }
   }
