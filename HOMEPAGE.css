@@ -27,7 +27,7 @@
   .HOMERIGHT {
      background-repeat: no-repeat;
      background-size: 100%;
-     height: 40vh;
+     height: 30vh;
   }
 }
 
@@ -55,10 +55,10 @@
   }
   @keyframes spin {
     0% { content:"Unexpected guests?"; }
-    10% { content:"Movie marathon?"; }
+    10% { content:"Movie marathon?";}
     20% { content:"Hungry?"; }
     30% { content:"Game night?"; }
-    40% { content:"Late nigt at office?"; }
+    40% { content:"Late night at office?";}
     50% { content:"Unexpected guest?"; }
    
     
