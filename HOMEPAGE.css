@@ -7,7 +7,7 @@
   float: left;
   width: 50%;
   padding: 10px;
-  height: 60vh; /* Should be removed. Only for demonstration */
+  height: 70vh; /* Should be removed. Only for demonstration */
 }
 @media screen and (max-width: 600px) {
   .HOMELEFT {
@@ -17,7 +17,8 @@
 .HOMERIGHT
 {
   background-image: url(BURGER/burgerfront.jpg);
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
