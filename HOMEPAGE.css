@@ -65,8 +65,37 @@
 .ordernow
 {
     border: 2px solid #FC8019;
+    background-color: #FC8019;
+    
 }
 .inputbox
 {
     border: 2px solid #FC8019;
+    height: 45px;
+    width: 300px;
+}
+.findnow
+{
+  height: 45px;
+  background-color: #FC8019;
+  border:2px solid #FC8019;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .inputbox
+  {
+      border: 2px solid #FC8019;
+      height: 30px;
+      width: 200px;
+  }
+  .findnow
+{
+  height: 30px;
+  background-color: #FC8019;
+  border:2px solid #FC8019;
+  padding-bottom: 2px;
+}
+
 }
