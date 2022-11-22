@@ -24,3 +24,13 @@
     height: auto;
     
 }
+.imgsize
+{
+    width: 60px;
+    height: 160px;
+}
+.orderbtncolour
+{
+    color: white;
+    font-weight: bold;
+}
