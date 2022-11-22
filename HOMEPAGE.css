@@ -9,9 +9,16 @@
   padding: 10px;
   height: 60vh; /* Should be removed. Only for demonstration */
 }
+@media screen and (max-width: 600px) {
+  .HOMELEFT {
+     height: 60VH;
+  }
+}
 .HOMERIGHT
 {
   background-image: url(BURGER/burgerfront.jpg);
+  background-size: 100%;
+  
 }
 
 
